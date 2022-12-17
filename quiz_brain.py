@@ -16,7 +16,7 @@ class QuizBrain:
         user_answer = input(f"Q.{self.question_number + 1} {current_question.text} (True/False): ")
         self.check_answer(user_answer, current_question.answer)
         self.question_number += 1
-
+# jeden komentar
     def check_answer(self, user_answer, correct_answer):
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
